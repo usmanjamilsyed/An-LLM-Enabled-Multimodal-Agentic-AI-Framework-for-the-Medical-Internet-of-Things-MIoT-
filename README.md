@@ -41,7 +41,7 @@ Layer 4: Agentic and multi-agent coordination
 Layer 5: Deployment architectures
 Layer 5: Governance/compliance
 
-Datasets and Benchmarks: Publicly Available MIoT and multimodal healthcare datasets and highlits of benchmark initiatives
+**Datasets and Benchmarks:** Publicly Available MIoT and multimodal healthcare datasets and highlits of benchmark initiatives
 
 
 
