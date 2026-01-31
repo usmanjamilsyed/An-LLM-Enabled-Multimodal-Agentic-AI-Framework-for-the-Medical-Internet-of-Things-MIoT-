@@ -94,7 +94,7 @@ Identified Research Gaps
 ## **Security Threats and Defenses for LLM-Based Healthcare AI**
 
 ### **Introduction to Threat Modeling**
-Effectively securing LLM-based healthcare pipelines requires a proactive **threat modeling** approach. This involves identifying potential adversaries—from malicious external actors to curious insiders with varying system access—and their capabilities as a foundational step for building robust defenses. Frameworks like **STRIDE**, adapted for LLMs in healthcare, provide a structured methodology for this analysis.
+Effectively securing LLM-based healthcare pipelines requires a proactive **threat modeling** approach. This involves identifying potential adversaries from malicious external actors to curious insiders with varying system access and their capabilities as a foundational step for building robust defenses. Frameworks like **STRIDE**, adapted for LLMs in healthcare, provide a structured methodology for this analysis.
 
 | Threat Category | Description & Mechanism | Healthcare-Specific Example | Reference / Framework |
 | :--- | :--- | :--- | :--- |
