@@ -82,13 +82,13 @@ Layer 6: Governance/compliance
 Identified Research Gaps
 ⚠️ Critical Gap: No existing benchmark fully addresses multi-agent orchestration or complex medical cyber-physical (MCP) aligned workflows. This highlights an urgent need for new benchmarks that:
 
-Evaluate coordinated multi-agent systems across modalities.
+⚠️ Evaluate coordinated multi-agent systems across modalities.
 
-Simulate real-world clinical workflows and interventions.
+⚠️ Simulate real-world clinical workflows and interventions.
 
-Integrate live sensor data with static medical records and images.
+⚠️ Integrate live sensor data with static medical records and images.
 
-Require sequential decision-making and task decomposition across specialized AI agents.
+⚠️ Require sequential decision-making and task decomposition across specialized AI agents.
 
 
 
