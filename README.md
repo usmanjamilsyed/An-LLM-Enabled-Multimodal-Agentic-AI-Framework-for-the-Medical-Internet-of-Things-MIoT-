@@ -32,14 +32,20 @@ To illustrate this framework in practice, we include a detailed Virtual Hospital
 **Contact** 📬: If you want to contribute, you can contact:  [Syed Usman Jamil](usmanjamilsyed@gmail.com) 📧 Prof. M SHAMIM HOSSAIN
 
 **Contributions:**
+
 A novel taxonomy that structures multimodal agentic AI powered by LLM in MIoT healthcare across six layers:
 
 Layer 1: Input multimedia streams
+
 Layer 2: Fusion strategies
+
 Layer 3: LLM roles 
+
 Layer 4: Agentic and multi-agent coordination
+
 Layer 5: Deployment architectures
-Layer 5: Governance/compliance
+
+Layer 6: Governance/compliance
 
 **Datasets and Benchmarks:** Publicly Available MIoT and multimodal healthcare datasets and highlits of benchmark initiatives
 
