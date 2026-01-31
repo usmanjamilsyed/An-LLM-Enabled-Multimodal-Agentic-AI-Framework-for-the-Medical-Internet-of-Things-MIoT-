@@ -71,6 +71,16 @@ Layer 6: Governance/compliance
 | | AVEC Series | Audio, Video, Text | Multimodal Affect Recognition |
 | | BioVid Heat Pain | Physiological Signals + Video | Pain Estimation & Analysis |
 
+| Benchmark | Modalities | Primary Focus | Current Limitation |
+|:---|:---|:---|:---|
+| **MedVidQA** | Video + Text | Medical instructional video question answering | Limited to procedural QA; lacks clinical workflow integration. |
+| **VQA-RAD** | Radiology Images + Text | Visual question answering for radiology images | Focused on single-image QA; no multi-step agent orchestration. |
+| **MultiMedQA (Google)** | Text + (Planned Multimodal) | Evaluating large medical LLM knowledge & reasoning | Primarily textual; multimodal queries are nascent. |
+| **BioNLP Shared Tasks** | Text + Biomedical KBs | Biomedical knowledge integration & relation extraction | Lacks multimodal grounding in sensor/imaging data. |
+| **AVEC Challenges** | Audio + Video + Physiology | Multimodal affect & behavioral analysis | Not yet adapted for clinical decision-support workflows. |
+
+
+
 **Acknowledgments**
 
 We thank all collaborators and institutions contributing datasets, insights, and clinical expertise that informed this
