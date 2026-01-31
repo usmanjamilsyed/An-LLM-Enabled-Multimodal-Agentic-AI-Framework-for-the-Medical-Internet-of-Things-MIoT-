@@ -70,3 +70,28 @@ Layer 6: Governance/compliance
 | **Multimodal Composite** | Med-VQA Datasets [6] | Medical Images + Text QA | Visual Question Answering |
 | | AVEC Series | Audio, Video, Text | Multimodal Affect Recognition |
 | | BioVid Heat Pain | Physiological Signals + Video | Pain Estimation & Analysis |
+
+**Acknowledgments
+**
+
+We thank all collaborators and institutions contributing datasets, insights, and clinical expertise that informed this
+repository.
+
+**References
+**
+
+[1] Johnson, A., et al. MIMIC-IV. PhysioNet (2023). Access: https://physionet.org/content/mimiciv/3.1/
+
+[2] Wang, X., et al. ChestX-ray8. CVPR (2017). Access: https://www.kaggle.com/datasets/nih-chest-xrays/data
+
+[3] Busso, C., et al. IEMOCAP. Speech Communication (2008). Access:	https://sail.usc.edu/iemocap/
+
+[4] Chen, C., et al. UTD-MHAD. CVPRW (2015). Access: https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
+
+[5] Johnson, A., et al. MIMIC-IV-Note. Nature Scientific Data (2023). Access: https://www.physionet.org/content/mimic-iv-note/2.2/
+
+[6] Lau, J., et al. Med-VQA. Medical Image Analysis (2018). Access: https://www.med-vqa.com/
+
+
+
+
