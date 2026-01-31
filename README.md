@@ -15,7 +15,7 @@ King Saud University, KSA
 MIN CHEN, School of Computer Science and Engineering, South China University of Technology, China
 SELWA AL-HAZZAA, Digital Innovation Sector, King Abdulaziz City for Science and Technology (KACST), KSA
 
-Introduction
+**Introduction**
 
 This repository explores the integration of Large Language Models (LLMs) and multimodal, agentic AI within the Medical Internet of Things (MIoT), a synergy that is fundamentally reshaping modern healthcare. By combining diverse data streams, this approach enables continuous patient monitoring, adaptive clinical decision support, and intelligent, context-aware human-machine collaboration.
 Healthcare environments produce vast amounts of multimodal data: text from electronic health records (EHRs) and clinical notes; medical scans like MRI, CT, and X-rays; audio from patient consultations; video for therapy monitoring; and real-time sensor data such as ECG and glucose levels. Traditional single-mode AI struggles to interpret this complex ecosystem. In contrast, LLM-augmented agentic systems excel at fusing these varied sources, grounding their reasoning in medical knowledge, and orchestrating specialized agents to improve real-world clinical operations.
@@ -29,5 +29,4 @@ We provide a comprehensive guide to LLM-driven multimodal agentic AI for MIoT he
 
 To illustrate this framework in practice, we include a detailed Virtual Hospital case study focused on oncology. This study demonstrates how intelligent agents integrate multimodal signals such as medical images, genomic data, patient conversations, and clinical updates to deliver personalized diagnostics, automate documentation, support home-based rehabilitation, and facilitate rapid emergency response.
 
-Contact 📬
-If you want to contribute, you can contact: Prof. M SHAMIM HOSSAIN or Dr. Syed Usman Jamil
+**Contact** 📬: If you want to contribute, you can contact: Prof. M SHAMIM HOSSAIN or Dr. Syed Usman Jamil
