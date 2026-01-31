@@ -79,6 +79,17 @@ Layer 6: Governance/compliance
 | **BioNLP Shared Tasks** | Text + Biomedical KBs | Biomedical knowledge integration & relation extraction | Lacks multimodal grounding in sensor/imaging data. |
 | **AVEC Challenges** | Audio + Video + Physiology | Multimodal affect & behavioral analysis | Not yet adapted for clinical decision-support workflows. |
 
+Identified Research Gaps
+⚠️ Critical Gap: No existing benchmark fully addresses multi-agent orchestration or complex medical cyber-physical (MCP) aligned workflows. This highlights an urgent need for new benchmarks that:
+
+Evaluate coordinated multi-agent systems across modalities.
+
+Simulate real-world clinical workflows and interventions.
+
+Integrate live sensor data with static medical records and images.
+
+Require sequential decision-making and task decomposition across specialized AI agents.
+
 
 
 **Acknowledgments**
