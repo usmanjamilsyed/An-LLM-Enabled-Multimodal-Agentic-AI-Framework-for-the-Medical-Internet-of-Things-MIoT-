@@ -49,30 +49,24 @@ Layer 6: Governance/compliance
 
 **Datasets and Benchmarks:** Publicly Available MIoT and multimodal healthcare datasets and highlits of benchmark initiatives
 
-Physiological Signals (Time Series)
-MIMIC-IV [1]	ICU data with ECG, vitals, labs, and clinical notes
-PhysioNet Databases	Wide range of ECG, EEG, EMG, and PPG datasets
-WESAD	Wearable stress and affect recognition dataset (multi-sensor)
-Medical Imaging
-NIH ChestX-ray14 [2], CheXpert	Large-scale radiology image-label datasets
-LIDC-IDRI	Lung CT scans for tumor detection
-EyePACS, Messidor	Fundus images for diabetic retinopathy
-HAM10000	Dermoscopy images for skin cancer detection
-Audio and Speech
-IEMOCAP [3]	Emotion recognition, clinically relevant for PROM data
-COUGHVID	Crowdsourced dataset of cough sounds for respiratory disease
-Heart and Lung Sound Databases	PhysioNet’s auscultation datasets
-Video and Multimodal Action Monitoring
-UTD-MHAD [4]	Wearable + video dataset for human activity recognition
-UP-Fall Detection	Video + accelerometer dataset for fall recognition
-MM-Fit	Multimodal rehab exercise dataset (video + IMU)
-Textual Data (EHR, Clinical Notes)
-MIMIC-IV Notes [5]	De-identified ICU notes
-i2b2 2014 De-identification Challenge	Annotated clinical narratives
-n2c2 Shared Tasks	Clinical NLP datasets covering discharge summaries, medications, temporal relations
-Multimodal Composite Sets
-Med-VQA datasets [6]	Image + text question pairs
-AVEC	Audio–video–text multimodal affect recognition challenge datasets
-BioVid Heat Pain Database	Physiological + video for pain estimation
-
-
+| Category | Dataset | Key Modalities | Primary Application |
+|:---|:---|:---|:---|
+| **Physiological Signals** | MIMIC-IV [1] | ECG, Vitals, Labs, Clinical Notes | Critical Care Monitoring & Analysis |
+| | PhysioNet Databases | ECG, EEG, EMG, PPG | General Physiological Signal Research |
+| | WESAD | Multi-sensor (ECG, EDA, ACC) | Stress & Affect Recognition |
+| **Medical Imaging** | NIH ChestX-ray14 [2], CheXpert | Chest Radiographs (X-rays) | Thoracic Pathology Detection |
+| | LIDC-IDRI | Lung CT Scans | Lung Nodule & Cancer Detection |
+| | EyePACS, Messidor | Retinal Fundus Images | Diabetic Retinopathy Screening |
+| | HAM10000 | Dermoscopy Images | Skin Lesion Classification |
+| **Audio & Speech** | IEMOCAP [3] | Speech, Video, Text | Emotion Recognition (Clinical PROMs) |
+| | COUGHVID | Cough Audio Recordings | Respiratory Disease Analysis |
+| | PhysioNet Auscultation | Heart & Lung Sounds | Cardiovascular/Pulmonary Monitoring |
+| **Video & Action** | UTD-MHAD [4] | RGB Video, Depth, Inertial Sensors | Human Activity Recognition |
+| | UP-Fall Detection | Video, Accelerometer | Fall Detection & Prevention |
+| | MM-Fit | Video, IMU Data | Rehabilitation Exercise Monitoring |
+| **Textual Data (EHR)** | MIMIC-IV Notes [5] | Clinical Notes (Discharge, Nursing) | Clinical NLP & Information Extraction |
+| | i2b2 2014 | Annotated Clinical Narratives | De-identification & Privacy Research |
+| | n2c2 Shared Tasks | Discharge Summaries | Medication, Relation, & Temporal NLP |
+| **Multimodal Composite** | Med-VQA Datasets [6] | Medical Images + Text QA | Visual Question Answering |
+| | AVEC Series | Audio, Video, Text | Multimodal Affect Recognition |
+| | BioVid Heat Pain | Physiological Signals + Video | Pain Estimation & Analysis |
