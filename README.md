@@ -91,6 +91,22 @@ Identified Research Gaps
 ⚠️ Require sequential decision-making and task decomposition across specialized AI agents.
 
 
+## **Security Threats and Defenses for LLM-Based Healthcare AI**
+
+### **Introduction to Threat Modeling**
+Effectively securing LLM-based healthcare pipelines requires a proactive **threat modeling** approach. This involves identifying potential adversaries—from malicious external actors to curious insiders with varying system access—and their capabilities as a foundational step for building robust defenses. Frameworks like **STRIDE**, adapted for LLMs in healthcare, provide a structured methodology for this analysis.
+
+| Threat Category | Description & Mechanism | Healthcare-Specific Example | Reference / Framework |
+| :--- | :--- | :--- | :--- |
+| **Threat Modeling** | Systematic identification of vulnerabilities in LLM-based healthcare pipelines, considering adversaries with different access levels. | Applying adapted STRIDE methodology to assess risks in a diagnostic agent system. | STRIDE for LLMs in Healthcare|
+| **Adversarial Examples** | Malicious, often imperceptible, perturbations added to input data (images, audio, sensor readings) to cause model misclassification. | Altered radiology scans leading to incorrect diagnosis; manipulated IoT vital sign data. | NIST AI 100-2e Taxonomy |
+| **Prompt Injection Attacks** | Crafted inputs designed to hijack the LLM's behavior, bypass safety guards, or extract sensitive data from the model. | Hidden instructions embedded within a patient's uploaded image or clinical note text. | OWASP Top 10 LLM Risks [5], Multimodal Injection Cases |
+| **Data Poisoning** | Insertion of corrupted or biased data during the model's training phase to degrade its performance or introduce backdoors. | Introducing fraudulent sensor logs in a federated learning network for patient monitoring. | NIST Adversarial Machine Learning Report |
+| **Model Inversion / Membership Inference** | Attacks that attempt to reconstruct training data or determine if a specific individual's data was part of the training set. | Querying a medical LLM to infer the presence of a celebrity's health records in its training data. | Privacy Attacks in NIST AI 100-2e |
+| **LLM-Driven Physical Misbehavior** | Exploitation of LLMs controlling physical devices (robots, IoT actuators) to execute harmful or unintended actions. | Using a malicious prompt to instruct a surgical assistive robot to perform an unsafe maneuver. | RoboPAIR Security Study  |
+| **Defense: Adversarial Training** | Training models on a mixture of clean and adversarially perturbed data to improve robustness against evasion attacks. | Implementing this technique within federated learning pipelines for healthcare to protect distributed models. | DHS/DoD Adversarial AI Mitigations |
+| **Defense: Secure Deployment** | Implementing rigorous security practices including ISO 27001-aligned audits, penetration testing, and continuous monitoring. | Integrating these controls within a Healthcare Information Security Management System (ISMS) for AI deployment. | RSNA AI Security Review |
+
 
 **Acknowledgments**
 
