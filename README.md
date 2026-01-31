@@ -71,14 +71,12 @@ Layer 6: Governance/compliance
 | | AVEC Series | Audio, Video, Text | Multimodal Affect Recognition |
 | | BioVid Heat Pain | Physiological Signals + Video | Pain Estimation & Analysis |
 
-**Acknowledgments
-**
+**Acknowledgments**
 
 We thank all collaborators and institutions contributing datasets, insights, and clinical expertise that informed this
 repository.
 
-**References
-**
+**References**
 
 [1] Johnson, A., et al. MIMIC-IV. PhysioNet (2023). Access: https://physionet.org/content/mimiciv/3.1/
 
