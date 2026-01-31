@@ -29,3 +29,5 @@ We provide a comprehensive guide to LLM-driven multimodal agentic AI for MIoT he
 
 To illustrate this framework in practice, we include a detailed Virtual Hospital case study focused on oncology. This study demonstrates how intelligent agents integrate multimodal signals such as medical images, genomic data, patient conversations, and clinical updates to deliver personalized diagnostics, automate documentation, support home-based rehabilitation, and facilitate rapid emergency response.
 
+Contact 📬
+If you want to contribute, you can contact: Prof. M SHAMIM HOSSAIN or Dr. Syed Usman Jamil
